@@ -28,6 +28,11 @@
             text-align: center; /* Centered text */
         }
 
+        .links-container {
+            display: flex; /* Display links side by side */
+            justify-content: space-around; /* Add space around links */
+        }
+
         a {
             display: inline-block;
             padding: 10px 20px;
@@ -49,14 +54,14 @@
 
     <h2>1 Million Songs Recommendation System</h2>
 
-    <p>This content-based recommendation system utilizes the following tools and frameworks:</p>
-    <p class="tool-list">Python | Streamlit | Pandas | AWS S3 | TensorFlow</p>
+    <p class="tool-list">This content-based recommendation system utilizes the following tools and frameworks:
+        Python | Streamlit | Pandas | AWS S3 | TensorFlow</p>
 
     <p><b>Explore the recommendation system:</b></p>
-    <ul>
+    <div class="links-container">
         <a href="https://1millionsongs.streamlit.app/" target="_blank">Visit the Streamlit App</a>
         <a href="https://github.com/KenMwangi1/1_Million_Songs/blob/main/1%20Million%20Songs%20Recomendation%20system.ipynb" target="_blank">View on GitHub</a>
-    </ul>
+    </div>
     <p>Other use cases include, Movie and TV Shows webapps, E-commerce websites, News and Article, Social Media Content, Travel, Job Recommendations etc</p>
 </body>
 
